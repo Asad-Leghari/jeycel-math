@@ -1,0 +1,61 @@
+.nav-button {
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+}
+.nav-button:hover {
+    background-color: rgb(142, 142, 223);
+}
+.dark-btn {
+    position: fixed;
+    top: 2.5rem;
+    right: 1rem;
+    max-width: 5rem;
+    z-index: 999999;
+}
+.navBtn-Container {
+    display: none;
+}
+.nav-btn {
+    position: fixed;
+    right: 5rem;
+    top: 3rem;
+    cursor: pointer;
+    z-index: 99999;
+    padding: 0.2rem;
+    display: flex;
+}
+.nav-btn-dark {
+    position: fixed;
+    right: 5rem;
+    top: 3rem;
+    cursor: pointer;
+    z-index: 99999;
+    padding: 0.2rem;
+    display: flex;
+}
+.menu-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+    min-height: 100vh !important;
+    padding: 1rem;
+}
+.close-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navy {
+        display: none;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .nav-btn {
+        display: none;
+    }
+  }
